@@ -9,12 +9,12 @@ services:
       - key: SECRET_KEY
         value: your_flask_secret_here
       - key: COHERE_API_KEY
-        value: your_cohere_api_key_here
+        value: rHkWHPjVpInyXQTniTkWEoHtH1LFI09G7lAlccox
       - key: SERPAPI_KEY
-        value: your_serpapi_key_here
+        value: 9463c3f503ddd550e60e989e8c027058d8b3db41a30e00215b7ca54cd7cef893
       - key: SENDER_EMAIL
-        value: your_email@gmail.com
+        value: 2003pulkit@gmail.com
       - key: EMAIL_PASSWORD
-        value: your_email_password
+        value: rfha vxhl yazs wzko
       - key: EMAIL_SUBJECT
         value: TOPSIS Result
