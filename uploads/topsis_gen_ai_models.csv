@@ -1,0 +1,6 @@
+Model,Accuracy,Response_Time,Creativity_Score,Cost,Multimodality
+GPT-4,92,1.2,9,30,9
+Gemini,90,1.0,8,25,10
+Claude,88,1.5,7,20,7
+Mistral,85,0.8,6,10,5
+Llama-3,80,1.0,5,5,4

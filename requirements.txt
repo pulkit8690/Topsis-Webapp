@@ -1,0 +1,9 @@
+flask
+gunicorn
+pandas
+numpy
+plotly
+openpyxl
+requests
+cohere
+python-dotenv

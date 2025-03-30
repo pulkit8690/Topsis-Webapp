@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: topsis-webapp
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SECRET_KEY
+        value: your_flask_secret_here
+      - key: COHERE_API_KEY
+        value: your_cohere_api_key_here
+      - key: SERPAPI_KEY
+        value: your_serpapi_key_here
+      - key: SENDER_EMAIL
+        value: your_email@gmail.com
+      - key: EMAIL_PASSWORD
+        value: your_email_password
+      - key: EMAIL_SUBJECT
+        value: TOPSIS Result
